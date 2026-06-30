@@ -584,6 +584,43 @@
       background: #1a0f2e;
     }
 
+    /* ── BETA FEEDBACK ── */
+    .beta-feedback {
+      background: linear-gradient(to bottom, #1a0630, var(--dark));
+      border-top: 1px solid rgba(168,85,247,0.3);
+      text-align: center;
+      padding: 2.5rem 2rem;
+    }
+
+    .beta-feedback p {
+      font-size: 1.02rem;
+      color: var(--text-muted);
+      font-weight: 300;
+      max-width: 620px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    .beta-feedback strong {
+      color: var(--gold-light);
+      font-weight: 400;
+    }
+
+    .beta-feedback a {
+      display: inline-block;
+      margin-top: 0.6rem;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1rem;
+      letter-spacing: 0.12em;
+      color: var(--gold-light);
+      text-decoration: none;
+      border-bottom: 1px solid var(--gold);
+      padding-bottom: 2px;
+      transition: color 0.2s;
+    }
+
+    .beta-feedback a:hover { color: #fff; }
+
     /* ── FOOTER ── */
     footer {
       background: var(--dark);
@@ -838,6 +875,14 @@
       </div>
     </div>
   </section>
+
+  <!-- BETA FEEDBACK -->
+  <div class="beta-feedback">
+    <p>
+      Trying the <strong>beta version</strong>? We'd love your feedback on how it compares to the alpha.
+      <a href="https://exitusadvisororg.lovable.app" target="_blank" rel="noopener">Leave feedback on the beta vs. alpha →</a>
+    </p>
+  </div>
 
   <!-- FOOTER -->
   <footer>
